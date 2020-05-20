@@ -4,15 +4,15 @@
 # Date 19 Feb 2019
 
 use strict;
-use warnings
+use warnings;
 
 # read file or exit
-my $file = shift or die ("ERROR: expected 'scores.gistic' input file\n\n");
+my $file = shift or die("ERROR: expected 'scores.gistic' input file\n\n");
 
-my $del_genes_file = shift or die ("ERROR: expected 'del_genes.conf20.txt' input file\n\n");
+my $del_genes_file = shift or die("ERROR: expected 'del_genes.conf20.txt' input file\n\n");
 die "ERROR: cannot open file '$file'\n" unless -e $file;
 
-my $amp_genes_file = shift or die ("ERROR: expected 'amp_genes.conf20.txt' input file\n\n");
+my $amp_genes_file = shift or die("ERROR: expected 'amp_genes.conf20.txt' input file\n\n");
 die "ERROR: cannot open file '$file'\n" unless -e $file;
 
 my %offsets;

@@ -1,6 +1,6 @@
 #
 
-# Author: Naveed Ishaque
+# Author: @naveedishaque
 # Date: 19th Feb 2019
 
 # USAGE: R -f plot_gistic.R --args [output from gistic_2_dataframe_for_plotting.pl] [BED file for custom genes, 4 column]
