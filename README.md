@@ -30,7 +30,6 @@ display myProject_gistic_table.tsv.pdf
 Create the plot, but adding in other genes that you are interested in (in a 4 column BED file, no chr prefix, and 4th column is the name)
 
 ```
-module load R
 R -f plot_gistic_table.r --args myProject_gistic_table.tsv my_favourite_genes.bed
 ```
 
