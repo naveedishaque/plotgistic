@@ -13,7 +13,6 @@ First run gistic2.0 (this is tested in gistic 2.0.23)
 First create a table that will be used for the plotting script:
 
 ```
-module load perl
 perl gistic_2_dataframe_for_plotting.pl scores.gistic del_genes.conf_20.txt amp_genes.conf_20.txt > myProject_gistic_table.tsv
 ```
 
@@ -22,7 +21,6 @@ perl gistic_2_dataframe_for_plotting.pl scores.gistic del_genes.conf_20.txt amp_
 Create the plot:
 
 ```
-module load R
 R -f plot_gistic_table.r --args myProject_gistic_table.tsv
 display myProject_gistic_table.tsv.pdf
 ```
