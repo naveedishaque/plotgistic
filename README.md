@@ -4,9 +4,15 @@ Scripts to create nice gistic visualisations.
 
 Please excuse the bad coding, and light documentation!
 
-## Plotting the output (@naveedishaque)
+## Prerequisites
 
-First run gistic2.0 (this is tested in gistic 2.0.23)
+- Developed using perl v5.26.1 built for x86_64-linux-gnu-thread-multi
+- Developed using R v3.6.1 built for x86_64-conda_cos6-linux-gnu
+- AFAIK no special libraries are required so this should work on any perl v5.x.x and R v3.x.x 
+
+## Usage
+
+First run gistic2.0 (this is tested on the output of gistic 2.0.23)
 
 ### Preprocess data
 
@@ -34,3 +40,19 @@ R -f plot_gistic_table.r --args myProject_gistic_table.tsv my_favourite_genes.be
 ```
 
 If you want to change the genes reported by gistic, find the lines with "Gene_amp" and "Gene_del", and modify the column with the gene names
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+
+## Authors
+
+Naveed Ishaque
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+## Acknowledgments
+
+Dorett I Odoni
